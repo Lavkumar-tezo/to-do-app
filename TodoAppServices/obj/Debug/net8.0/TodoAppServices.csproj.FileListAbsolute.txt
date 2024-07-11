@@ -1,0 +1,47 @@
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppS.8A3269B9.Up2Date
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\refint\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppServices\obj\Debug\net8.0\ref\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.sourcelink.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppS.8A3269B9.Up2Date
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\refint\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppServices\obj\Debug\net8.0\ref\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\bin\Debug\net8.0\TodoAppServices.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\bin\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\bin\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.sourcelink.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppS.8A3269B9.Up2Date
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\refint\TodoAppServices.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\TodoAppServices.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppServices\obj\Debug\net8.0\ref\TodoAppServices.dll

@@ -1,0 +1,44 @@
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.runtimeconfig.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\refint\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.genruntimeconfig.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\ref\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.runtimeconfig.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.sourcelink.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\refint\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.genruntimeconfig.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\ToDo-App\backend\To-do WebApi\TodoAppDataLayer\obj\Debug\net8.0\ref\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.deps.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.runtimeconfig.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\bin\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.AssemblyReference.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfoInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.AssemblyInfo.cs
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.sourcelink.json
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\refint\TodoAppDataLayer.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.pdb
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\TodoAppDataLayer.genruntimeconfig.cache
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\Angular\to-do-backend\full-web-app-Lavkumar-tezo\TodoAppDataLayer\obj\Debug\net8.0\ref\TodoAppDataLayer.dll
