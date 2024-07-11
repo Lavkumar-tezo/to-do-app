@@ -1,0 +1,82 @@
+.modal-container{
+    display: block;
+    width: 61vw;
+    height: 43vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4.5vh;
+    background-color: var(--white);
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.model-open{
+    display: block;
+}
+.model-body{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.model-inputs{
+    gap:2vh;
+}
+.model-task-title, .model-task-desc{
+    padding: 2vh;
+    outline: none;
+    border: none;
+    color: rgba(181,181,181,1);
+    font-weight: 400;
+    font-size: 2.8vh;
+    box-shadow: rgba(0,0,0,0.1) 2px 2px 6px 0px;
+}
+.model-task-desc{
+    font-size: 2vh;
+    height: 15vh;
+    resize: none;
+}
+.model-task-btns{
+    justify-content: flex-end;
+    gap:2vh;
+}
+.model-task-btns button{
+    padding: 1.5vh 4vh;
+    border: none;
+}
+.model-task-cancel{
+    outline: 1px solid var(--yellow);
+}
+
+.model-task-save{
+    background-color: var(--yellow);
+}
+@media screen and (max-width:720px) {
+    .modal-container{
+        width: 70vw;
+        height: 47vh;
+    }
+    .model-task-title{
+        font-size: 2.5vh;
+    }
+    .model-task-desc{
+        font-size: 1.75vh;
+    }
+    .model-task-btns button{
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width:520px) {
+    .modal-container{
+        width: 90vw;
+        height: 47vh;
+    }
+    .model-task-title{
+        font-size: 2.5vh;
+    }
+    .model-task-desc{
+        font-size: 1.75vh;
+    }
+    .model-task-btns button{
+        font-size: 2vh;
+    }
+}

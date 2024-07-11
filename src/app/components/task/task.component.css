@@ -1,0 +1,131 @@
+.task-container{
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 6px 0px;
+    height: 7.5vh;
+    padding: 2vh 2vh 2vh 2.5vh;
+    position: relative;
+}
+.task-body{
+   justify-content: flex-start;
+}
+
+label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    display: none;
+}
+
+.checkbox-svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 1.5vw;
+    background: url("/assets/icons/active-checkbox.svg") no-repeat center center;
+    background-size: contain;
+}
+
+.custom-checkbox:not(:checked)+label .checkbox-svg {
+    width: 24px;
+    height: 24px;
+    background: url("/assets/icons/completed-checkbox.svg") no-repeat center center;
+    background-size: contain;
+}
+
+.task-active{
+    background-color: var(--white);
+}
+
+.task-completed{
+    background-color: var(--yellow);
+}
+
+.task-content-visible{
+    display: block;
+}
+.task-content-hidden{
+    display: none;
+}
+
+.task-hover-model{
+    width: 35vh;
+    height: 30vh;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 4;
+    margin-top: 10vh;
+    padding: 3.5vh;
+    box-shadow: rgba(100,100,111,0.2) 0px 3px 2px 0px;
+}
+.task-hover-body{
+    height: 23vh;
+    justify-content: space-between;
+}
+.task-heading{
+    gap:0.5vh;
+}
+.task-title{
+    font-size: 2vh;
+    font-weight: 400;
+    color: var(--black);
+    text-overflow: ellipsis;
+}
+.task-date{
+    font-size: 1.5vh;
+    color:rgba(181, 181, 181, 1);
+}
+
+.description-heading{
+    font-size: 2vh;
+    font-weight: 700;
+    color: var(--black);
+}
+.description-message{
+    color: var(--black);
+    font-size: 2vh;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}
+.task-model-buttons{
+    justify-content: space-between;
+}
+.task-edit-delete{
+    justify-content: flex-end;
+    gap:1vh;
+}
+
+@media screen and (max-width:980px) {
+    .task-container{
+        height: 6vh;
+        padding: 1.75vh 1.5vh 1.5vh 2vh;
+    }
+    .task-title{
+        font-size: 2vh;
+    }
+    .checkbox-svg,.custom-checkbox:not(:checked)+label .checkbox-svg{
+        width: 2vh;
+        height: 2vh;
+    }
+    .checkbox-svg{
+        margin-right: 1.5vw;
+    }   
+}
+@media screen and (max-width:720px) {
+    .task-container{
+        height: 5vh;
+        padding: 1.5vh 1vh 1vh 2vh;
+    }
+    .task-title{
+        font-size: 1.75vh;
+    }
+    .checkbox-svg,.custom-checkbox:not(:checked)+label .checkbox-svg{
+        width: 1.75vh;
+        height: 1.75vh;
+    }
+    .checkbox-svg{
+        margin-right: 1.5vw;
+    }   
+}

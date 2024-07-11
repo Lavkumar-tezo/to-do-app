@@ -1,0 +1,316 @@
+
+
+.dashboard-container{
+    width: 100%;
+    height: 85vh;
+}
+.dashboard-body{
+    margin:4vh auto 0vh auto;
+    width: 90%;
+    gap:4vh;
+    justify-content: space-between;
+}
+.dashboard-Hero-section{
+    padding:0vh 6vh;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 16px;
+}
+.dashboard-hero-body{
+    gap:7vw;
+}
+.dashboard-hero-content{
+    padding: 0;
+}
+.dashboard-hero-title{
+    font-weight: 700;
+    color: var(--black);
+    font-size: 3vw;
+    white-space: nowrap;
+    padding-bottom: 1vh;
+}
+.dashboard-hero-desc{
+    font-weight: 400;
+    font-size: 1.25vw;
+    white-space: nowrap;
+}
+.hero-section-image{
+    height: 25vh;
+    width: 25vh;
+    position: relative;
+    top:5vh;
+}
+
+.dashboard-main-content{
+    flex-wrap: wrap;
+    row-gap: 4vh;
+    column-gap: 5%;
+    justify-content: space-between;
+}
+
+.dashboard-task-heading{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.dashboard-heading{
+    font-weight: 600;
+    font-size: 3vh;
+}
+
+.date-delete-btn{
+    gap: 4vw;
+    outline: none;
+    align-items: center;
+}
+
+.delete-all{
+    color: var(--brown);
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.dashboard-all-tasks{
+    width: 70%;
+    gap: 2vh;
+}
+
+.dashboard-task-stat{
+    width: 20%;
+    gap:4vh;
+}
+.task-stat{
+    border-radius: 16px;
+    height: 25vh;
+    max-height: 250px;
+    width: 100%;
+    background-color: var(--brown);
+    padding: 3vh;
+}
+.task-stat-active{
+    background-color: var(--yellow);
+}
+.task-stat-body{
+    gap:2.5vh;
+}
+.task-stat-desc{
+    color: var(--white);
+    gap: 0.5vh;
+}
+
+.task-percentage{
+    font-weight: 700;
+    font-size: 3vh;
+}
+
+.task-stat-name{
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 1.6vh;
+}
+
+@media screen and (max-width:1200px) {
+    .dashboard-Hero-section{
+        padding:0vh 3vh;
+    }
+    .dashboard-hero-title{
+        font-size: 2.5vw;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.1vw;
+    }
+}
+@media screen and (max-width:1080px) {
+    .dashboard-Hero-section{
+        padding:0vh 4vh;
+    }
+    .dashboard-hero-title{
+        font-size: 2.5vw;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.5vh;
+    }
+    .dashboard-hero-body{
+        gap:2vw;
+    }
+    .dashboard-hero-content{
+        width: 85%;
+        padding-left: 2vh;
+    }
+    .hero-section-image{
+        height: 22vh;
+        width: 22vh;
+        top:4vh;
+    }
+}
+@media screen and (max-width:980px) {
+    .dashboard-all-tasks{
+        width: 65%;
+    }
+    .dashboard-task-stat{
+        width: 25%;
+    }
+    .task-stat{
+        height: 17vh;
+        padding: 1.5vh;
+    }
+    .task-stat-body{
+        gap:1.5vh;
+    }
+    .task-stat-body img{
+        height: 6vh;
+    }
+}
+@media screen and (max-width:880px) {
+    .dashboard-Hero-section{
+        padding:0vh 4vh;
+    }
+    .dashboard-hero-title{
+        font-size: 2.5vw;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.5vh;
+    }
+    .dashboard-hero-body{
+        gap:2vw;
+    }
+    .dashboard-hero-content{
+        width: 85%;
+        padding: 0;
+    }
+    .hero-section-image{
+        height: 18vh;
+        width: 18vh;
+        top:3vh;
+    }
+    .dashboard-main-content{
+        column-gap: 2%;
+        justify-content: space-between;
+    }
+    .dashboard-heading{
+        font-size: 2vh;
+    }
+    .date-delete-btn{
+        gap: 2vw;
+    }
+    .dashboard-all-tasks{
+        width: 70%;
+    }
+    .dashboard-task-stat{
+        width: 27%;
+    }
+    .task-stat-name{
+        font-size: 1.4vh;
+    }
+    .task-stat-body img{
+        height: 6vh;
+    }
+}
+@media screen and (max-width:720px) {
+    .dashboard-Hero-section{
+        padding:0vh 4vh;
+    }
+    .dashboard-hero-title{
+        font-size: 2.5vw;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.5vw;
+    }
+    .dashboard-hero-body{
+        gap:2vw;
+    }
+    .dashboard-hero-content{
+        width: 85%;
+        padding: 0;
+    }
+    .hero-section-image{
+        height: 15vh;
+        width: 15vh;
+        top:3vh;
+    }
+    .dashboard-heading{
+        font-size: 1rem;
+    }
+    .delete-all{
+        font-size: 0.6rem;
+    }
+    .today-date{
+        font-size: 0.6rem;
+    }
+    .dashboard-all-tasks{
+        width: 100%;
+    }
+    .dashboard-task-stat{
+        order: -1;
+    }
+    .dashboard-task-stat{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 5vh;
+        width: 100%;
+    }
+    .task-stat{
+        display: flex;
+        height: 100%;
+        width: 35%;
+        justify-content: center;
+    }
+    .task-stat-body{
+        flex-direction: row;
+    }
+    .task-stat-body{
+        row-gap: 2vh;
+    }
+    .task-stat-body img{
+        height: 2.5vh;
+        width: 2.5vh;
+    }
+    .task-percentage{
+        font-size: 1.5vh;
+    }
+    .task-stat-name{
+        font-size: 1vh;
+    }
+}
+@media screen and (max-width:520px) {
+    .dashboard-Hero-section{
+        padding:0 auto;
+    }
+    .dashboard-hero-title{
+        font-size: 3vh;
+    }
+    .dashboard-hero-content{
+        gap:1vw;
+    }
+    .dashboard-hero-body{
+        height: 12vh;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.5vh;
+    }
+    .hero-section-image{
+        height: 20vw;
+        width: 20vw;
+        top:2vh;
+    }
+    .task-stat{
+        width: 45%;
+    }
+}
+@media screen and (max-width:420px){
+    .dashboard-hero-content{
+        gap:0;
+    }
+    .dashboard-hero-title{
+        font-size: 2vh;
+    }
+    .dashboard-hero-desc{
+        font-size: 1.2vh;
+    }
+    .hero-section-image{
+        height: 22vw;
+        width: 22vw;
+        top: 1vh;
+    }
+}
+

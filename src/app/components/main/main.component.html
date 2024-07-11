@@ -1,0 +1,54 @@
+<div class="main-container grid" [ngClass]="{'blur-background': (showModal)}" (click)="closeModel()">
+    <div class="sidebar-container flex-column">
+        <div class="sidebar-header flex-container">
+            <span class="sidebar-title">To - Do App</span>
+        </div>
+        <div class="sidebar-nav-container flex-container flex-column">
+            <button class="add-task-btn border-medium flex-container" (click)="openModel($event)">
+                <span>Add Task</span>
+                <img src="assets/icons/add.svg" alt="add-icon" />
+            </button>
+            <ul class="sidebar-navbar flex-column">
+                <a routerLink="/user/dashboard" class="signup-link-container flex-container" routerLinkActive="sidebar-active-link"><li class="sidebar-navbar-item flex-container">Dashboard</li></a>
+                <a routerLink="/user/active" class="signup-link-container flex-container" routerLinkActive="sidebar-active-link"><li class="sidebar-navbar-item flex-container">Active</li></a>
+                <a routerLink="/user/completed" class="signup-link-container flex-container" routerLinkActive="sidebar-active-link"><li class="sidebar-navbar-item flex-container">Completed</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="content-container flex-column">
+        <div class="header">
+            <div class="header-body flex-container">
+                <h2 class="header-title">Dashboard</h2>
+                <div class="sidebar-header flex-container mobile-title">
+                    <span class="sidebar-title">To - Do App</span>
+                </div>
+                <div class="header-buttons flex">
+                    <button class="add-task-btn border-small flex-container mobile-add-task-btn" (click)="openModel($event)">
+                        <span>Add Task</span>
+                        <img src="assets/icons/add.svg" alt="add-icon" />
+                    </button>
+                    <button class="sign-out-btn border-small flex-container" (click)="onSignOut()">
+                        <span>Sign out</span>
+                        <img src="assets/icons/sign-out.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown" *ngIf="isMobileLayout">
+            <div class="dropdown-btn" (click)="toggleDropdown()">
+              <a>{{ usedLink.optionName }}</a>
+              <img src="/assets/icons/drop-down.svg" alt="down arrow">
+            </div>
+            <div class="dropdown-content" *ngIf="isDropdownOpen">
+              <a *ngFor="let link of unUsedLink" (click)="selectOption(link)" [routerLink]="link.link">{{ link.optionName }}</a>
+            </div>
+          </div>
+        <div class="main-content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+<div class="add-task-container" *ngIf="showModal">
+    <app-task-model></app-task-model>
+</div>
+

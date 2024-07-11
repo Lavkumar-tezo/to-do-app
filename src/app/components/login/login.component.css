@@ -1,0 +1,218 @@
+.login-container {
+    width: 62vw;
+    position: relative;
+    height: 72vh;
+    background-color: var(--white);
+    padding: 20vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.signup-container {
+    background-color: var(--yellow);
+}
+
+.login-body {
+    width: 50vw;
+    min-height: 57vh;
+    gap: 10vh;
+    position: relative;
+}
+
+.login-header {
+    margin: 0 auto;
+}
+
+.login-title {
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    font-Size: 6vh;
+    color: var(--brown);
+    margin: 2vh auto 1vh auto;
+}
+
+.signup-title {
+    color: var(--white);
+}
+
+.login-header-body {
+    font-weight: 400;
+    font-size: 2vh;
+    color: var(--black);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.signup-header-body {
+    color: var(--white);
+}
+
+.login-form {
+    gap: 5.5vh;
+}
+
+.login-inputs {
+    gap: 4.5vh;
+}
+
+
+.login-input {
+    padding: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-submit-signup {
+    text-align: center;
+    gap: 2.5vh;
+}
+
+.form-submit {
+    padding: 2vh 6vh;
+    background-color: var(--brown);
+    border: none;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.login-submit {
+    background-color: var(--yellow);
+}
+
+.signup-submit {
+    background-color: var(--brown);
+}
+
+.signup-redirection{
+    color: var(--black);
+}
+
+.login-redirection{
+    color: var(--white);
+}
+
+.anchor {
+    color: var(--brown);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1020px) {
+    .login-title {
+        font-size: 5vh;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .login-input{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .login-container {
+        width: 82vw;
+        height: 55vh;
+        padding: 2vh 5vh;
+    }
+
+    .login-body {
+        width: 70vw;
+        height: 45vh;
+        gap: 7vh;
+    }
+
+    .login-title {
+        font-Size: 4vh;
+    }
+
+    .login-header-body {
+        font-size: 1.5vh;
+    }
+
+    .login-form {
+        gap: 4vh;
+    }
+
+    .login-inputs {
+        gap: 3.5vh;
+    }
+
+    .login-input {
+        padding: 1rem;
+    }
+
+    .form-submit {
+        padding: 1.5vh 4vh;
+    }
+
+    .signup-link-container {
+        font-size: 1.5vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .login-container {
+        width: 82vw;
+        height: 55vh;
+        padding-top: 15vh;
+    }
+
+    .login-title {
+        font-Size: 3.5vh;
+    }
+
+    .login-header-body {
+        font-size: 1.25vh;
+    }
+
+    .login-form {
+        gap: 3vh;
+    }
+
+    .login-inputs {
+        gap: 3vh;
+    }
+
+    .login-input{
+        font-size: 0.5rem;
+    }
+
+    .signup-link-container {
+        font-size: 1.2vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .login-container {
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 2.5vh auto;
+        height: 45vh;
+    }
+
+    .login-body {
+        gap: 5vh;
+    }
+
+    .login-form {
+        gap: 2.5vh;
+    }
+
+    .login-input {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .signup-link-container {
+        font-size: 1vh;
+    }
+
+    .form-submit {
+        padding: 1.5vh 2.5vh;
+    }
+
+}

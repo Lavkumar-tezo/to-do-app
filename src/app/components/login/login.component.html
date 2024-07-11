@@ -1,0 +1,20 @@
+<div class="login-container center border-large" [ngClass]="{'signup-container': (!isLogging)}">
+    <div class="login-body center border-large flex-column">
+        <div class="login-header">
+            <div class="login-title" [ngClass]="{'signup-title': (!isLogging)}">To-Do App</div>
+            <div class="login-header-body" [ngClass]="{'signup-header-body': (!isLogging)}">Start Organizing your life day by day</div>
+        </div>
+        <form [formGroup]="loginForm" class="login-form flex-column">
+            <div class="login-inputs flex-column">
+                <input type="text" class="login-input border-medium" placeholder="Username" formControlName="username"/>
+                <input type="text" class="login-input border-medium"  placeholder="Password" formControlName="password"/>
+            </div>
+            <div class="login-submit-signup flex-column">
+                <input type="submit" [value]="(isLogging) ? 'Sign In':'Sign Up'" class="form-submit border-medium" [ngClass]="{'login-submit':(isLogging),'signup-submit':(!isLogging)}" (click)="authenticate()" [disabled]="loginForm.invalid">
+                <div class="signup-link-container"  [ngClass]="{'signup-redirection':(isLogging),'login-redirection':(!isLogging)}" (click)="authenticate()">{{navigationMessage}}
+                    <a [routerLink]="navigationLink" class="anchor">here</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

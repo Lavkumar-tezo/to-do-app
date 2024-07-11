@@ -1,0 +1,393 @@
+.main-container {
+    grid-template-columns: 1fr 3.5fr;
+    background-color: var(--white);
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    position: relative;
+}
+.blur-background{
+    pointer-events: none;
+    filter: brightness(60%) blur(4px);
+    user-select: none;
+}
+.add-task-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar-container {
+    gap: 6vh;
+}
+
+.sidebar-header {
+    height: 9.5vh;
+}
+
+.sidebar-title {
+    font-weight: 700;
+    color: var(--brown);
+    font-size: 3.5vh;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.sidebar-nav-container {
+    gap: 8vh;
+    font-weight: 400;
+}
+
+.add-task-btn {
+    border: 0;
+    background-color: white;
+    gap: 5vh;
+    white-space: nowrap;
+    justify-content: space-between;
+    font-size: 2vh;
+    padding: 2.5vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sidebar-navbar {
+    gap: 2vh;
+    width: 100%;
+}
+
+.sidebar-navbar-item {
+    height: 3.5vh;
+}
+
+.signup-link-container {
+    text-decoration: none;
+    color: var(--black);
+    height: 5vh;
+}
+
+.sidebar-active-link {
+    background-color: var(--yellow);
+}
+
+.content-container {
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    height: 10vh;
+    padding: 1.5rem 2.25rem;
+    position: sticky;
+}
+
+.header-body {
+    justify-content: space-between;
+    z-index: 10;
+    background-color: white;
+}
+
+.header-title {
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.mobile-title {
+    display: none;
+}
+
+.mobile-add-task-btn {
+    display: none;
+}
+
+.header-buttons {
+    gap: 1.25vh;
+    height: 100%;
+}
+
+.header-buttons button {
+    height: 100%;
+    padding: 1vh 1.75vh;
+    border: 0;
+}
+
+.sign-out-btn {
+    background-color: var(--brown);
+    color: var(--white);
+    gap: 2.5vh;
+}
+
+.sign-out-btn img {
+    scale: 2;
+}
+
+.main-content {
+    overflow: scroll;
+}
+
+.dropdown {
+    display: none;
+    background-color: #edb046;
+    position: relative;
+    width: 88%;
+    margin: 0 5%;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+.dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    color: FFFFFF;
+    width: auto;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #ffffff;
+}
+
+.dropdown-btn a,
+.dropdown-content a {
+    font-size: 12px;
+    color: black;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #edb046;
+}
+
+@media screen and (max-width:980px) {
+    .main-container {
+        grid-template-columns: 1fr 2.5fr;
+    }
+
+    .sidebar-container {
+        gap: 5vh;
+    }
+
+    .sidebar-header {
+        height: 7.5vh;
+    }
+
+    .sidebar-title {
+        font-size: 2.5vh;
+    }
+
+    .sidebar-nav-container {
+        gap: 6vh;
+    }
+
+    .add-task-btn {
+        gap: 4vh;
+        padding: 2vh;
+    }
+
+    .header {
+        height: 8vh;
+        padding: 1rem 2rem;
+    }
+
+    .header-title {
+        font-size: 2.25vh;
+    }
+
+    .header-buttons button {
+        padding: 1vh 1.25vh;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .sidebar-container {
+        gap: 4vh;
+    }
+
+    .sidebar-header {
+        height: 6.5vh;
+    }
+
+    .sidebar-nav-container {
+        gap: 5vh;
+        font-size: 1.5vh;
+    }
+
+    .add-task-btn {
+        gap: 3vh;
+        padding: 1.5vh;
+        font-size: 1.5vh;
+    }
+
+    .header {
+        height: 7vh;
+        padding: 0.75rem 1.25rem;
+    }
+
+    .header-title {
+        font-size: 2vh;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .main-container {
+        display: block;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .sidebar-header {
+        height: 3vh;
+    }
+
+    .add-task-btn {
+        gap: 1vh;
+        font-size: 1vh;
+        padding: 1vh;
+    }
+
+    .signup-link-container {
+        height: 3vh;
+    }
+
+    .header {
+        height: 6vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .header-body {
+        height: 4vh;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .mobile-title {
+        display: block;
+    }
+    .dropdown{
+        display: block;
+    }
+    .header-buttons button {
+        border-radius: 4px;
+        font-size: 1vh;
+        gap: 0.75vh
+    }
+
+    .mobile-add-task-btn {
+        display: flex;
+    }
+
+    .mobile-navbar {
+        display: block;
+        width: 82vw;
+        margin: 0 auto;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        background-color: var(--yellow);
+        padding: 2vw;
+    }
+
+    .mobile-navbar:focus {
+        border-radius: 6px 6px 0 0;
+    }
+
+    .mobile-navbar-link {
+        background-color: white;
+        border: 0;
+        outline: 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+
+    .mobile-navbar-link:last-of-type {
+        border: none;
+        border-radius: 0 0 6px 6px;
+        outline: none;
+    }
+
+    .mobile-navbar-link:hover {
+        background-color: var(--yellow);
+    }
+
+    .sign-out-btn {
+        gap: 1.5vh;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .main-container {
+        display: block;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .header {
+        height: 6vh;
+        margin-bottom: 2.5vh;
+    }
+
+    .header-body {
+        height: 4vh;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .mobile-title {
+        display: block;
+    }
+
+    .sidebar-title {
+        font-size: 2vh;
+    }
+
+    .header-buttons button {
+        border-radius: 4px;
+        font-size: 1vh;
+    }
+
+    .mobile-navbar {
+        display: block;
+        width: 82vw;
+        margin: 0 auto;
+        border: 0;
+        outline: 0;
+        border-radius: 6px;
+        background-color: var(--yellow);
+        padding: 2vw;
+    }
+
+    .mobile-navbar-link {
+        background-color: white;
+        border: 0;
+        outline: 0;
+    }
+
+    .mobile-navbar-link:hover {
+        background-color: var(--yellow);
+    }
+}

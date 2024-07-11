@@ -1,0 +1,13 @@
+<div class="active-tasks-container">
+    <div class="active-task-body flex-column">
+        <div class="page-title-date flex">
+                <span class="page-title">Today's Completed Tasks</span>
+                <span class="today-date">{{todayDate | date:'fullDate'}}</span>
+        </div>
+        <div class="active-task-details flex-column">
+            <app-task *ngFor="let task of tasks" [task]="task" [selectedTask]="selectedTask" (selectedTaskEmitter)="setSelectedTask($event)"></app-task>
+        </div>
+    </div>
+    
+</div>
+

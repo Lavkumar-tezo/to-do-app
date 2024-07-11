@@ -1,0 +1,9 @@
+.wrapper{
+    height: 100vh;
+    background-image: url("/assets/images/login-page-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+    display: none;
+}

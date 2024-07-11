@@ -1,0 +1,33 @@
+<div class="task-container border-medium" (click)="showPopUp($event)" [ngClass]="(task.isActive) ? 'task-active':'task-completed'">
+    <div class="task-body flex-container">
+        <input type="checkbox" name="check" [id]="task.id" class="custom-checkbox" [checked]="task.isActive"
+            (change)="updateStatus($event)">
+        <label [for]="task.id">
+            <span class="checkbox-svg"></span>
+        </label>
+        <span class="task-title" [title]="(task.title.length > 30)? task.title:''">{{task.title}}</span>
+    </div>
+    <div class="task-hover-model border-medium"  [ngClass]="{'task-active':task.isActive,'task-completed':!task.isActive,'task-content-visible':(selectedTask==task.id),'task-content-hidden':!(selectedTask==task.id)}">
+        <div class="task-hover-body flex-column">
+            <div class="task-heading flex-column">
+                <span class="task-title">{{task.title}}</span>
+                <span class="task-date" [ngStyle]="{'color':(task.isActive) ? 'rgba(181, 181, 181, 1)':'var(--brown)'}">Added {{calculateDuration()}}</span>
+            </div>
+            <div class="task-description flex-column">
+                <span class="description-heading">Description</span>
+                <span class="description-message">{{task.description}}</span>
+            </div>
+            <div class="task-model-buttons flex">
+                <input type="checkbox" name="check" [id]="task.id" class="custom-checkbox" [checked]="task.isActive"
+                    (change)="updateStatus($event)" />
+                <label [for]="task.id">
+                    <span class="checkbox-svg"></span>
+                </label>
+                <div class="task-edit-delete flex">
+                    <img [ngStyle]="{'display':(task.isActive) ? 'block':'none'}" src="/assets/icons/edit.svg" alt="" class="edit icon" (click)="editTask()">
+                    <img [src]=" (task.isActive)? '/assets/icons/delete.svg':'/assets/icons/delete-outlined.svg'" alt="" class="" (click)="deletTask()">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

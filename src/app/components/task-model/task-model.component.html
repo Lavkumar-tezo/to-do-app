@@ -1,0 +1,13 @@
+<div class="modal-container border-medium">
+    <form class="model-body flex-column" [formGroup]="taskForm">
+        <div class="model-inputs flex-column">
+            <input type="text" class="model-task-title border-medium" placeholder="Add Title" formControlName="taskTitle"/>
+            <textarea class="model-task-desc border-medium" placeholder="Add Description" formControlName="taskDesc"></textarea>
+        </div>
+        <div class="model-task-btns flex">
+            <button class="model-task-cancel border-medium" (click)="closeModal()">Cancel</button>
+            <button class="model-task-save border-medium" type="submit" (click)="saveTask()" [disabled]="taskForm.invalid">Save</button>
+        </div>
+    </form>
+</div>
+  

@@ -1,0 +1,49 @@
+<div class="dashboard-container">
+    <div class="dashboard-body flex-column">
+        <div class="dashboard-Hero-section">
+            <div class="dashboard-hero-body flex-container">
+                <div class="dashboard-hero-content">
+                    <div class="dashboard-hero-title">
+                        Hello, Beautiful Human!
+                    </div>
+                    <div class="dashboard-hero-desc">
+                        What do you want to do today?
+                    </div>
+                </div>
+                <img src="assets/images/young-smiling-woman.png" alt="" class="hero-section-image">
+            </div>
+        </div>
+        <div class="dashboard-main-content flex">
+            <div class="dashboard-task-heading flex">
+                <span class="dashboard-heading">Today's Tasks</span>
+                <div class="date-delete-btn flex">
+                    <button class="delete-all" (click)="deleteAllTask()">Delete All</button>
+                    <div class="today-date">{{todayDate | date:'fullDate'}}</div>
+                </div>
+            </div>
+            <div class="dashboard-all-tasks flex-column">
+                <app-task *ngFor="let task of allTasks" [task]="task" [selectedTask]="selectedTask" (selectedTaskEmitter)="setSelectedTask($event)"></app-task>
+            </div>
+            <div class="dashboard-task-stat flex-column">
+                <div class="task-stat">
+                    <div class="task-stat-body flex-container flex-column">
+                        <img src="/assets/icons/icon-park-solid-check.svg" alt="">
+                        <div class="task-stat-desc flex-container flex-column">
+                            <span class="task-percentage">{{percentCompleted}}%</span>
+                            <span class="task-stat-name">Completed tasks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="task-stat task-stat-active">
+                    <div class="task-stat-body flex-container flex-column">
+                        <img src="/assets/icons/icon-park-solid-time.svg" alt="">
+                        <div class="task-stat-desc flex-container flex-column">
+                            <span class="task-percentage">{{percentActive}}%</span>
+                            <span class="task-stat-name">Active tasks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
